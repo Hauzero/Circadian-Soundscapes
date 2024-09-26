@@ -29,7 +29,7 @@ The code can be used for all .wav file inputs retrieved from AudioMoth.
 ## Code files
 1.	“AST_demo.ipynb” and "AST_run.py"- Includes implementation of an AST classification algorithm for classification of .wav files into 'speech','bird','frog','cricket' and 'animal' species. Please use the 'AST_run.py' to implement the alogrithm for batch implementation across multiple audio files denoting a soundscape. 
 2.	"AudioCLIP" folder includes implementation of AudioCLIP classification of species acoustic signals
-3.	“powerminusnoise.R”- Includes the implementation of “Power minus Noise” (PMN) index estimations that is a proxy for acoustic activity within a frequency range. The code outputs a .csv for each .wav input.
+3.	“powerminusnoise.R”- Includes the implementation of “Power minus Noise” (PMN) index estimations that is a proxy for acoustic activity within a frequency range. The code outputs a .csv for each .wav input. Currently we have a placeholder file, original code developed by: Dr. Johan van den Hoogen,  johan.vandenhoogen@usys.ethz.ch
 4.	“renametoadjustGMToff”- If input time steps are in GMT, this changes the file names to offset the output to the correct local time. 
 5.	“Post-processing2_linepy”-Aggregates the outputs from “powerminusnoise.R” to get average, median and max values per time step in 24 hours for multiple days.
 6.	“Plot_classification_result.ipynb”- Creates Line plots with time (24 hrs) in the x axis and species classification probabilities in the y axis for a given list of species.
